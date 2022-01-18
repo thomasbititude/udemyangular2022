@@ -18,7 +18,7 @@ serverName = "TestServer";
   ngOnInit(): void {}
 
   onCreateServer(){
-    this.serverCreationStatus = 'new server created';
+    this.serverCreationStatus = 'new server created,and the Name is: ' + this.serverName;
   }
   onUpdateServerName(event:Event){
 console.log(event);
